@@ -4,9 +4,11 @@ function reverseString(str){
     var reversedString = reverseStrArray.join("");
     console.log(reverseStrArray);
     console.log(reversedString);
+    //document.write(reversedString);
+    document.getElementById("word").innerHTML=reversedString;
 }
 
-reverseString("Fire");
+reverseString();
 
 
 
