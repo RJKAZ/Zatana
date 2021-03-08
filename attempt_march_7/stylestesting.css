@@ -45,6 +45,14 @@
     color: blue;
 }
 
+.centered .sparkle {
+    color: fuchsia;
+}
+
+.centered .electric {
+    color: yellow;
+}
+
 /*
 .centered p {
     color: #ffeb3b;

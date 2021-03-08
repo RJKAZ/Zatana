@@ -18,16 +18,31 @@ function reverseString(str){
 }
 
 
-fire.addEventListener('click', () =>{
-    document.getElementById("word");
+fire.addEventListener('click', (e) => {
+    word.removeAttribute('class');
+    //word.classList.remove('water', 'sparkle', 'electric');
     console.log('Fire Magic');
     word.classList.add('fire');
     
 })
 
-water.addEventListener('click', () =>{
-    document.getElementById("word");
+water.addEventListener('click', (e) =>{
+    word.removeAttribute('class');
+    //word.classList.remove('fire', 'sparkle','electric');
     console.log('Water Magic');
     word.classList.add('water')
 })
 
+sparkle.addEventListener('click', (e) =>{
+    word.removeAttribute('class');
+    //word.classList.remove('fire','water','electric');
+    console.log('Sparkle Magic');
+    word.classList.add('sparkle')
+})
+
+electric.addEventListener('click', (e) =>{
+    word.removeAttribute('class');
+    //word.classList.remove('fire','water','sparkle');
+    console.log('Electric Magic');
+    word.classList.add('electric')
+})

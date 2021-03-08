@@ -12,3 +12,5 @@ but I'm gonna limit it firest. I need to start off small and with each click get
 Another failure -
 
 I set up an event listener to listen to the clicks from two buttons. Console log works, but only one color or the other works. I had this problem with other attempts. Back to the drawing board.
+
+lol...and I got it....the whole class name nightmare is figured out. Now to jazz the CSS a whole hell of a lot more. 
