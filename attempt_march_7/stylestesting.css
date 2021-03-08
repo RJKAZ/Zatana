@@ -1,0 +1,54 @@
+.container{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.bottom-left{
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+}
+
+.bottom-right{
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+}
+
+.top-left{
+    position: absolute;
+    top: 8px;
+    left: 16px;
+}
+
+.top-right{
+    position: absolute;
+    top: 8px;
+    right: 16px;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    
+    font-weight: 600;
+    font-size: 16em;
+   
+
+}
+
+/*
+.centered p {
+    color: #ffeb3b;
+    text-shadow: 0 0 10px #ff8c3b, 
+    0 0 40px #ff8c3b, 
+    0 0 80px #ff8c3b, 
+    0 0 160px #ff8c3b, 
+    0 0 240px #ff8c3b;
+}
+*/
+
