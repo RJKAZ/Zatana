@@ -2,6 +2,17 @@
     position: relative;
     text-align: center;
     color: white;
+    background-color: black;
+}
+
+h2 {
+    text-align: center;
+    justify-content: center;
+}
+
+p {
+    text-align: center;
+    justify-content: center;
 }
 
 .bottom-left{
@@ -38,7 +49,13 @@
 }
 
 .centered .fire {
-    color: red;
+    color: #ffeb3b;
+    text-shadow: 0 0 10px #ff8c3b, 
+    0 0 40px #ff8c3b, 
+    0 0 80px #ff8c3b, 
+    0 0 160px #ff8c3b, 
+    0 0 240px #ff8c3b;
+    filter: url(#fire);
 }
 
 .centered .water {
@@ -52,6 +69,12 @@
 .centered .electric {
     color: yellow;
 }
+
+svg{
+    width: 0;
+    height: 0;
+}
+
 
 /*
 .centered p {
