@@ -3,7 +3,7 @@ const water = document.getElementById('top-right');
 const sparkle = document.getElementById('bottom-left');
 const electric = document.getElementById('bottom-right');
 const word = document.getElementById('word')
-
+const rain = document.getElementById('top-center');
 
 
 function reverseString(str){
@@ -45,4 +45,9 @@ electric.addEventListener('click', (e) =>{
     //word.classList.remove('fire','water','sparkle');
     console.log('Electric Magic');
     word.classList.add('electric')
+})
+
+rain.addEventListener('click', (e) =>{
+    word.removeAttribute('class');
+    word.classList.add('rain')
 })

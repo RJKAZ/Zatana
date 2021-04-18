@@ -39,6 +39,13 @@ p {
     right: 16px;
 }
 
+.top-center {
+    position: absolute;
+    top: 8px;
+    right: 700px;
+    
+}
+
 .centered {
     position: absolute;
     top: 50%;
@@ -74,6 +81,22 @@ svg{
     width: 0;
     height: 0;
 }
+
+.centered .rain {
+    color: lightblue;
+    background-image: url('rainImg.png');
+    filter: opacity(.3);
+    animation: rainAnimation 0.17s linear infinite;
+}
+
+@keyframes rainAnimation {
+    0% {
+      background-position: 0% 0%;
+    }
+    100% {
+      background-position: 15% 100%;
+    }
+  }
 
 
 /*
